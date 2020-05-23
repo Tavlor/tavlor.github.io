@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "GlacialIndifferenceRegular";
+    src: url("assets/fonts/GlacialIndifference-Regular.woff");
+}
+
+@font-face {
+    font-family: "PlataSansRegular";
+    src: url("assets/fonts/PlataSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: "PlataSansBold";
+    src: url("assets/fonts/PlataSans-Bold.ttf")
+}
+
 html,
 body {
     display: flex;
@@ -51,8 +66,10 @@ body {
 }
 
 .name-first {
+    /* font-family: 'PlataSansBold'; */
     font-family: 'PlataSansBold';
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: normal;
     font-style: normal;
     margin: 0px;
 }
